@@ -1,4 +1,6 @@
-### ** Desvendando a Galáxia dos Filmes com um Click! **
+### Código feito para a Imersão Dev com Google Gemini
+
+### Desvendando a Galáxia dos Filmes com um Click!
 
 **O que essa nave espacial faz?**
 
