@@ -1,0 +1,76 @@
+let dados = [
+    {
+        titulo: "Star Wars: Episódio I - A Ameaça Fantasma",
+        diretor : "George Lucas",
+        lancamento : "24 de junho de 1999",
+        resumo: "A República Galáctica enfrenta uma crise quando a Federação do Comércio bloqueia o pequeno planeta Naboo. O Cavaleiro Jedi Qui-Gon Jinn e seu aprendiz, Obi-Wan Kenobi, são enviados para negociar, mas acabam resgatando a jovem rainha Amidala e descobrindo Anakin Skywalker, um garoto escravo em Tatooine, que possui uma conexão extraordinária com a Força. Eles acreditam que Anakin é o Escolhido, destinado a trazer equilíbrio à Força. Enquanto isso, o misterioso Lorde Sith Darth Sidious manipula os eventos nos bastidores, pavimentando o caminho para sua ascensão ao poder.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_I_–_A_Ameaça_Fantasma",
+        tags: "Episódio I, Episodio I, Episódio 1, Episodio 1, Prelúdio, Preludio, Jar Jar Binks, Naboo, Tatooine", 
+    },
+    {
+        titulo: "Star Wars: Episódio II - Ataque dos Clones",
+        diretor : "George Lucas",
+        lancamento : "16 de maio de 2002",
+        resumo: "Dez anos após os eventos de A Ameaça Fantasma, a galáxia está à beira de uma guerra civil. Anakin Skywalker, agora um jovem e impetuoso Jedi, é designado para proteger a senadora Padmé Amidala, por quem desenvolve um amor proibido. Enquanto isso, Obi-Wan Kenobi descobre a existência de um exército de clones encomendado misteriosamente em nome da República. As tensões aumentam com a Separatista liderada pelo ex-Jedi Conde Dookan. A guerra começa quando a República usa os clones para enfrentar o crescente exército separatista, sem saber que tudo faz parte de um plano maior orquestrado pelo sinistro Darth Sidious.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_II_–_Ataque_dos_Clones",
+        tags: "Episódio II, Episodio II, Episódio 2, Episodio 2, Ataque dos Clones, Clone Wars, Anakin e Padmé, Conde Dookan, Exército de Clones, Guerra Civil Galáctica",
+
+    },
+    {
+        titulo: "Star Wars: Episódio III - A Vingança dos Sith", 
+        diretor : "George Lucas",
+        lancamento : "19 de maio de 2005",
+        resumo: "A guerra dos clones está em seu auge, e a República enfrenta a destruição. Anakin Skywalker, atormentado por visões de morte envolvendo Padmé e seduzido pela promessa de poder ilimitado, é manipulado por Palpatine, o chanceler supremo da República, que se revela como o Lorde Sith Darth Sidious. Anakin sucumbe ao lado sombrio da Força, tornando-se Darth Vader e ajudando a exterminar a Ordem Jedi. Palpatine se declara Imperador e transforma a República no Império Galáctico. Em um confronto final, Obi-Wan enfrenta Anakin em Mustafar, deixando-o à beira da morte. Padmé dá à luz os gêmeos Luke e Leia antes de morrer, e os bebês são escondidos para protegê-los de Vader e do Imperador.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_III_–_A_Vingança_dos_Sith",
+        tags: "Episódio III, Episodio III, Episódio 3, Episodio 3, A Vingança dos Sith, Darth Vader, Ordem Jedi, Palpatine, Guerra dos Clones, Mustafar, Luke e Leia",
+    },
+    {
+        titulo: "Star Wars: Episódio IV - Uma Nova Esperança",
+        diretor : "George Lucas",
+        lancamento : "25 de maio de 1977",
+        resumo: "A galáxia está sob o domínio do tirânico Império Galáctico. A jovem princesa Leia Organa é capturada enquanto tentava roubar os planos da Estrela da Morte, uma poderosa estação espacial capaz de destruir planetas. Luke Skywalker, um fazendeiro do deserto em Tatooine, encontra os droides C-3PO e R2-D2, que carregam os planos e uma mensagem para o ex-Cavaleiro Jedi Obi-Wan Kenobi. Juntos, Luke, Obi-Wan, o contrabandista Han Solo e sua co-pilota Chewbacca, resgatam Leia e se unem à Aliança Rebelde. Usando os planos roubados, Luke destrói a Estrela da Morte com a ajuda da Força, tornando-se um herói e marcando a primeira grande vitória dos Rebeldes.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_IV_–_Uma_Nova_Esperança",
+        tags: "Episódio IV, Episodio IV, Episódio 4, Episodio 4, Uma Nova Esperança, Uma Nova Esperanca, Estrela da Morte, Leia Organa, Luke Skywalker, Han Solo, Chewbacca, Aliança Rebelde, Alianca Rebelde, Tatooine",
+    },
+    {
+        titulo: "Star Wars: Episódio V - O Império Contra-Ataca",
+        diretor : "Irvin Kershner",
+        lancamento : "21 de maio de 1980",
+        resumo: "Após a destruição da Estrela da Morte, o Império persegue os Rebeldes incansavelmente. A base rebelde no planeta gelado Hoth é atacada, e os heróis se separam. Luke Skywalker vai ao planeta Dagobah para treinar com o mestre Jedi Yoda, enquanto Han Solo, Leia e Chewbacca tentam escapar do Império. Luke enfrenta uma difícil escolha ao ter visões de seus amigos em perigo. Ele abandona seu treinamento e confronta Darth Vader na Cidade das Nuvens, onde descobre a terrível verdade: Vader é seu pai. Luke é derrotado e perde uma mão, mas é resgatado pelos amigos. O filme termina com os Rebeldes em desvantagem e o destino de Han incerto, após ser capturado e congelado em carbonita.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_V_–_O_Império_Contra-Ataca",
+        tags: "Episódio V, Episodio V, Episódio 5, Episodio 5, Imperio, O Império Contra-Ataca, Cidade das Nuvens, Darth Vader, Yoda, Hoth, Han Solo, Leia Organa, Carbonita, Revelação de Vader",
+    },
+    {
+        titulo: "Star Wars: Episódio VI - O Retorno de Jedi",
+        diretor : "Richard Marquand",
+        lancamento : "25 de maio de 1983",
+        resumo: "A Aliança Rebelde planeja um ataque final contra o Império enquanto tenta resgatar Han Solo das garras do gângster Jabba the Hutt. Luke Skywalker, agora um Jedi mais maduro, lidera a missão de resgate e enfrenta Darth Vader e o Imperador Palpatine na Estrela da Morte, que está sendo reconstruída. Enquanto a batalha espacial entre a Frota Rebelde e as forças imperiais acontece, Luke tenta trazer seu pai de volta ao lado luminoso da Força. No confronto final, Vader se redime ao salvar Luke e destruir o Imperador, sacrificando sua própria vida. A Estrela da Morte é destruída, e o Império finalmente cai. A trilogia termina com a celebração da liberdade em toda a galáxia, simbolizando a vitória da Aliança e a restauração da paz.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_VI_–_O_Retorno_de_Jedi",
+        tags: "Episódio VI, Episodio VI, Episódio 6, Episodio 6, O Retorno de Jedi, Jabba the Hutt, Estrela da Morte, Luke Skywalker, Darth Vader, Imperador Palpatine, Aliança Rebelde, Alianca Rebelde, Batalha Final",
+
+    },
+    {
+        titulo: "Star Wars: Episódio VII - O Despertar da Força",
+        diretor : "J.J. Abrams",
+        lancamento : "17 de dezembro de 2015",
+        resumo: "Trinta anos após a queda do Império, uma nova ameaça surge na forma da Primeira Ordem, liderada pelo enigmático Kylo Ren e pelo Supremo Líder Snoke. Luke Skywalker, o último Jedi, está desaparecido, e a Resistência, liderada pela General Leia Organa, busca desesperadamente por ele. A jovem catadora de sucata Rey, o ex-stormtrooper Finn e o piloto Poe Dameron se unem na luta contra a Primeira Ordem. Rey descobre sua conexão com a Força e, com a ajuda de Han Solo e Chewbacca, encontra Luke no planeta Ahch-To. O filme termina com Rey entregando a Luke seu antigo sabre de luz, simbolizando o início de uma nova jornada Jedi.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_VII_–_O_Despertar_da_Força",
+        tags: "Episódio VII, Episodio VII, Episódio 7, Episodio 7, Forca, Despertar da Força, Despertar da Forca, Primeira Ordem, Kylo Ren, Rey, Finn, Poe Dameron, General Leia Organa, Han Solo, Chewbacca, Mary Sue, Ahch-To, Disney, Kathleen Kennedy",
+    },
+    {
+        titulo: "Star Wars: Episódio VIII - Os Últimos Jedi",
+        diretor : "Rian Johnson",
+        lancamento : "14 de dezembro de 2017",
+        resumo: "Rey busca treinamento com Luke Skywalker, que está relutante devido ao seu passado com Kylo Ren, que outrora foi seu aprendiz. Enquanto Rey tenta entender sua conexão com Kylo e o que significa ser um Jedi, a Resistência enfrenta uma fuga desesperada da Primeira Ordem. Luke, confrontado por Rey e seu próprio legado, decide retornar à luta, mas em seus próprios termos. Ele confronta Kylo Ren em uma batalha final em Crait, permitindo que a Resistência escape. No entanto, Luke sacrifica sua vida para realizar essa façanha, se tornando um com a Força. Rey começa a aceitar seu papel como a última esperança dos Jedi.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_VIII_–_Os_Últimos_Jedi",
+        tags: "Episódio VIII, Episodio VIII, Episódio 8, Episodio 8, Último, Merda, Lixo, Porcaria, Desrespeito, Desgraça, Desgraca, Os Últimos Jedi, Luke Skywalker, Rey, Kylo Ren, Resistência, Resistencia, Crait, Sacrifício de Luke, Sacrificio, Jedi, Força, Disney, Kathleen Kennedy",
+    },
+    {
+        titulo: "Star Wars: Episódio IX - A Ascensão Skywalker",
+        diretor : "J.J. Abrams",
+        lancamento : "19 de dezembro de 2019",
+        resumo: "A galáxia é abalada pelo retorno do Imperador Palpatine, que revela ter manipulado os eventos desde o início. Rey, agora em plena posse de suas habilidades Jedi, descobre que é neta de Palpatine, o que a coloca em um conflito interno sobre seu destino. A Resistência, liderada por Leia e ajudada por Lando Calrissian, organiza um ataque final contra a frota Sith de Palpatine. Rey, com a ajuda dos espíritos dos Jedi do passado, enfrenta e derrota Palpatine, enquanto Kylo Ren, redimido e voltando a ser Ben Solo, se sacrifica para salvar Rey. Com a destruição definitiva do Imperador e da Primeira Ordem, a trilogia termina com Rey adotando o nome Skywalker, simbolizando a continuidade do legado de esperança e resistência na galáxia.",
+        link: "https://pt.wikipedia.org/wiki/Star_Wars:_Episódio_IX_–_A_Ascensão_Skywalker",
+        tags: "Episódio IX, Episodio IX, Episódio 9, Episodio 9, Ascensao, A Ascensão Skywalker, Imperador Palpatine, Rey, Kylo Ren, Ben Solo, Resistência, Resistencia, Lando Calrissian, Frota Sith, Legado Skywalker, De Alguma Forma Palpatine Retornou, Todos Os Jedi, Disney, Kathleen Kennedy",
+    }
+];
